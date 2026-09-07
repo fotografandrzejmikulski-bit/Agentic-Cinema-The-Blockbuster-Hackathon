@@ -1,0 +1,18 @@
+[project]
+name = "studiosync"
+version = "0.1.0"
+description = "Agentic production operations copilot for film and media teams"
+requires-python = ">=3.11"
+dependencies = [
+  "google-adk>=1.17.0",
+  "google-genai>=1.30.0",
+  "google-cloud-aiplatform>=1.120.0",
+  "fastapi>=0.116.0",
+  "uvicorn[standard]>=0.35.0",
+  "pydantic>=2.11.0",
+  "httpx>=0.28.1",
+  "python-dotenv>=1.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
